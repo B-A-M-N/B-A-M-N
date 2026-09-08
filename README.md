@@ -20,7 +20,7 @@
 
 ## Who I Am
 
-I'm a 36-year-old single father and primary caregiver for my young son with autism. I walked away from my career 4 years ago because he needed someone present — and spent those 4 years teaching myself AI from the ground up, starting with hardware, because my long-term goal is total resource self-sufficiency with AI.
+I'm a 37-year-old single father and primary caregiver for my young son with autism. I walked away from my career 4 years ago because he needed someone present — and spent those 4 years teaching myself AI from the ground up, starting with hardware, because my long-term goal is total resource self-sufficiency with AI.
 
 **Background:** Precision machinist (±0.00015" tolerances) → Contract IT → Independent AI Systems Architect
 
