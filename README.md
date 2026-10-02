@@ -37,8 +37,14 @@ retained evidence, and the terminal surfaces agents run through.
   — 5 merged, 18 total: storage erasure races under advisory locks, trusted-proxy
   client-IP resolution, prefill-load-aware routing, prefix-cache locality
   validation.
-- Also merged into [ATree](https://github.com/Unity-Lab-AI/ATree) and
-  [maestro-orchestrate](https://github.com/B-A-M-N/maestro-orchestrate).
+- **[Unity-Lab-AI/ATree](https://github.com/Unity-Lab-AI/ATree)** — authored the
+  semantic and code-intelligence engine: scope-aware resolution with C3 MRO,
+  multi-language symbol analysis, and the MCP integration behind it. That engine
+  is most of what ATree became.
+- **[josstei/maestro-orchestrate](https://github.com/josstei/maestro-orchestrate)** —
+  added Qwen Code as a supported runtime, including the dynamic hook-adapter
+  resolution that replaced its single-adapter design, plus a fix for LLM-emitted
+  string numbers breaking phase lookups.
 
 ## Other systems
 
