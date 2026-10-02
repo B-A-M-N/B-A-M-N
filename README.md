@@ -17,9 +17,11 @@ retained evidence, and the terminal surfaces agents run through.
   around a single authoritative reasoning loop: capability discovery, retained
   evidence, delegated execution, governed multi-runtime operation. Public beta.
   Python, MIT.
-- **[Kontrol](https://github.com/B-A-M-N/Kontrol)** — MCP workspace and ACP bridge
-  for observable collaboration between web agent interfaces and CLI coding agents.
-  TypeScript, MIT.
+- **[Kontrol](https://github.com/B-A-M-N/Kontrol)** — local control plane for web
+  and CLI coding agents: MCP workspace access, ACP worker dispatch, human review
+  gates. Derived from [Waishnav/devspace](https://github.com/Waishnav/devspace)
+  (MIT), extended with worker dispatch, durable review loops, supervised missions,
+  and policy approvals. TypeScript, MIT.
 - **[AegisKeys](https://github.com/B-A-M-N/AegisKeys)** — Go TUI for key custody
   and provider configuration in coding-agent workflows, with a no-leak render
   check in the release gate. Ships signed releases with cross-platform binaries.
