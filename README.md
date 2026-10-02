@@ -20,10 +20,10 @@ retained evidence, and the terminal surfaces agents run through.
 - **[Kontrol](https://github.com/B-A-M-N/Kontrol)** — MCP workspace and ACP bridge
   for observable collaboration between web agent interfaces and CLI coding agents.
   TypeScript, MIT.
-- **[tui-lab](https://github.com/B-A-M-N/tui-lab)** — Rust harness for building and
-  testing terminal UIs: run lifecycle, event journal, interaction replay, layout
-  inspection. Built so a coding agent can develop a TUI without a human at the
-  keyboard. MIT.
+- **[AegisKeys](https://github.com/B-A-M-N/AegisKeys)** — Go TUI for key custody
+  and provider configuration in coding-agent workflows, with a no-leak render
+  check in the release gate. Ships signed releases with cross-platform binaries.
+  MIT.
 
 ## Upstream contributions
 
