@@ -1,13 +1,17 @@
-# John London
+# John London — AI Systems & Infrastructure Engineer
 
-AI systems engineer working on agent runtimes, inference infrastructure, and
-developer tooling. Go, Rust, TypeScript, Python.
+**Go · Rust · TypeScript · Python · MCP / ACP · Local & Hybrid Inference**
 
-My work usually sits in the layer between a probabilistic model and something
-someone has to sign off on: capability and authority boundaries, durable state,
-retained evidence, and the terminal surfaces agents run through.
+I build production infrastructure around AI coding agents and inference systems: credential-containment gateways, agent control planes, distributed GPU routing, and security gates.
 
-## Start here
+**Currently available for full-time remote roles or contract engineering** (AI Infrastructure, Agent Systems, Developer Tooling / CLI, AI Security).
+
+<p align="left">
+  <a href="https://bamnlanding.lovable.app">Website</a> ·
+  <a href="https://x.com/london_joh23108">X / Twitter</a> ·
+  <a href="https://ollama.com/B-A-M-N">Ollama</a> ·
+  <a href="mailto:benevolentjoker@gmail.com">Email</a>
+</p>
 
 - **[gripline](https://github.com/B-A-M-N/gripline)** — credential-containment
   gateway for inference APIs. Terminates reusable API keys at the trust boundary,
@@ -27,42 +31,12 @@ retained evidence, and the terminal surfaces agents run through.
   check in the release gate. Ships signed releases with cross-platform binaries.
   MIT.
 
-## Upstream contributions
+### Verified Upstream Contributions (21+ Merged PRs)
 
-21 merged PRs into projects maintained by other people.
-
-- **[QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)** — 13 merged:
-  auto-memory recall, per-model settings resolution, the shared tool-permission
-  flow, settings.json comment preservation, cost estimation, search exit
-  semantics.
-- **[HarvardMadSys/hybridInference](https://github.com/HarvardMadSys/hybridInference)**
-  — 5 merged, 18 total: storage erasure races under advisory locks, trusted-proxy
-  client-IP resolution, prefill-load-aware routing, prefix-cache locality
-  validation.
-- **[Unity-Lab-AI/ATree](https://github.com/Unity-Lab-AI/ATree)** — authored the
-  semantic and code-intelligence engine: scope-aware resolution with C3 MRO,
-  multi-language symbol analysis, and the MCP integration behind it. That engine
-  is most of what ATree became.
-- **[josstei/maestro-orchestrate](https://github.com/josstei/maestro-orchestrate)** —
-  added Qwen Code as a supported runtime, including the dynamic hook-adapter
-  resolution that replaced its single-adapter design, plus a fix for LLM-emitted
-  string numbers breaking phase lookups.
-
-## Other systems
-
-- **[SOLLOL](https://github.com/B-A-M-N/SOLLOL)** — load balancing and routing for
-  distributed Ollama clusters: node discovery, VRAM- and load-aware placement,
-  health scoring, automatic failover. Published on PyPI.
-- **[tsmigrate](https://github.com/B-A-M-N/tsmigrate)** — deterministic TypeScript
-  6→7 migration engine: ordered transforms, atomic transactions, verification
-  oracles, agent escalation over MCP.
-- **[Agent-Interop](https://github.com/B-A-M-N/Agent-Interop)** — compatibility
-  gateway between coding agents and local or hosted models, with a conformance
-  and replay harness for tool calling.
-- **[Portico](https://github.com/B-A-M-N/Portico)** — Go connection manager for
-  local services and provider-backed tunnels.
-- **[GitNexusRelay](https://github.com/B-A-M-N/GitNexusRelay)** — real-time
-  code-graph visibility for agents and humans, extending GitNexus.
+* **[QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)** — 13 merged PRs across core CLI plumbing: unified tool-permission flows, non-blocking auto-memory recall, per-model settings resolution, JSON comment preservation during migrations, and cost estimation.
+* **[HarvardMadSys/hybridInference](https://github.com/HarvardMadSys/hybridInference)** — 5 merged PRs (18 submitted) on inference serving internals: fixing storage erasure races under advisory locks, trusted-proxy client-IP resolution, prefill-load-aware routing, and prefix-cache locality validation.
+* **[Unity-Lab-AI/ATree](https://github.com/Unity-Lab-AI/ATree)** — Authored the core code-intelligence engine (scope-aware resolution with C3 MRO, multi-language symbol analysis, and MCP server integration).
+* **[josstei/maestro-orchestrate](https://github.com/josstei/maestro-orchestrate)** — Added Qwen Code runtime support and refactored single-adapter dispatch into dynamic hook-adapter resolution.
 
 Agent-governance work in progress — behavioral policy, durable state, and
 behavioral measurement as separable layers:
@@ -70,18 +44,17 @@ behavioral measurement as separable layers:
 [CognitiveStateWorks](https://github.com/B-A-M-N/CognitiveStateWorks),
 [DigitalPsychology](https://github.com/B-A-M-N/DigitalPsychology).
 
-## Tools
+### Selected Production Systems
 
-Go · Rust · TypeScript · Python · Kotlin · Bash · MCP · ACP · PyTorch/DDP ·
-Ray/Dask · PostgreSQL · Redis · SQLite
+* **[gripline](https://github.com/B-A-M-N/gripline)** (`Go`) — Credential-containment gateway for inference APIs. Terminates reusable API keys at the trust boundary, issues scoped internal assertions, and enforces hard lanes/limits so leaked keys fail safely.
+* **[Kontrol](https://github.com/B-A-M-N/Kontrol)** (`TypeScript`) — Local control plane bridging web AI interfaces and CLI coding agents over MCP/ACP, with worker dispatch, durable review loops, and human approval gates.
+* **[AegisKeys](https://github.com/B-A-M-N/AegisKeys)** (`Go`) — Encrypted local key-custody TUI for coding-agent workflows, shipping signed cross-platform binaries with automated no-leak render verification in CI.
+* **[SOLLOL](https://github.com/B-A-M-N/SOLLOL)** (`Python / PyPI`) — Load balancer and VRAM-aware router for distributed Ollama clusters with health scoring and automatic failover.
 
-## Background
+---
 
-Precision machinist (±0.00015") → contract IT → self-taught systems work.
-B.A. Psychology, George Mason. Four years as the primary caregiver for my son,
-which is why the work is asynchronous and why I care about agents that hold up
-under constraints rather than agents that demo well.
+### Background
 
-[Website](https://bamnlanding.lovable.app) ·
-[Ollama](https://ollama.com/B-A-M-N) ·
-[email](mailto:benevolentjoker@gmail.com)
+Precision machinist (±0.00015" tolerances) → contract IT → self-taught systems engineering (B.A. Psychology, George Mason). After four years as primary caregiver for my son, I'm ready for full-time or contract engineering work—bringing machinist-grade discipline around deterministic boundaries, failure modes, and shipping reliable tooling under tight constraints.
+
+**Contact:** [benevolentjoker@gmail.com](mailto:benevolentjoker@gmail.com) · [Website](https://bamnlanding.lovable.app) · [X / Twitter](https://x.com/london_joh23108) · [Ollama](https://ollama.com/B-A-M-N)
