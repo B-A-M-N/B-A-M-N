@@ -13,23 +13,7 @@ I build production infrastructure around AI coding agents and inference systems:
   <a href="mailto:bamn.labs.ai@gmail.com">Email</a>
 </p>
 
-- **[gripline](https://github.com/B-A-M-N/gripline)** — credential-containment
-  gateway for inference APIs. Terminates reusable API keys at the trust boundary,
-  reissues scoped internal assertions, and enforces lanes and hard limits, so a
-  key that leaks authorizes less than it appears to. Go, Apache-2.0.
-- **[Athena](https://github.com/B-A-M-N/Athena)** — local-first agent runtime built
-  around a single authoritative reasoning loop: capability discovery, retained
-  evidence, delegated execution, governed multi-runtime operation. Public beta.
-  Python, MIT.
-- **[Kontrol](https://github.com/B-A-M-N/Kontrol)** — local control plane for web
-  and CLI coding agents: MCP workspace access, ACP worker dispatch, human review
-  gates. Derived from [Waishnav/devspace](https://github.com/Waishnav/devspace)
-  (MIT), extended with worker dispatch, durable review loops, supervised missions,
-  and policy approvals. TypeScript, MIT.
-- **[AegisKeys](https://github.com/B-A-M-N/AegisKeys)** — Go TUI for key custody
-  and provider configuration in coding-agent workflows, with a no-leak render
-  check in the release gate. Ships signed releases with cross-platform binaries.
-  MIT.
+---
 
 ### Verified Upstream Contributions (21+ Merged PRs)
 
@@ -38,11 +22,7 @@ I build production infrastructure around AI coding agents and inference systems:
 * **[Unity-Lab-AI/ATree](https://github.com/Unity-Lab-AI/ATree)** — Authored the core code-intelligence engine (scope-aware resolution with C3 MRO, multi-language symbol analysis, and MCP server integration).
 * **[josstei/maestro-orchestrate](https://github.com/josstei/maestro-orchestrate)** — Added Qwen Code runtime support and refactored single-adapter dispatch into dynamic hook-adapter resolution.
 
-Agent-governance work in progress — behavioral policy, durable state, and
-behavioral measurement as separable layers:
-[CognitiveFrameWorks](https://github.com/B-A-M-N/CognitiveFrameWorks),
-[CognitiveStateWorks](https://github.com/B-A-M-N/CognitiveStateWorks),
-[DigitalPsychology](https://github.com/B-A-M-N/DigitalPsychology).
+---
 
 ### Selected Production Systems
 
