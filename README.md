@@ -10,7 +10,7 @@ I build production infrastructure around AI coding agents and inference systems:
   <a href="https://bamnlanding.lovable.app">Website</a> ·
   <a href="https://x.com/london_joh23108">X / Twitter</a> ·
   <a href="https://ollama.com/B-A-M-N">Ollama</a> ·
-  <a href="mailto:benevolentjoker@gmail.com">Email</a>
+  <a href="mailto:bamn.labs.ai@gmail.com">Email</a>
 </p>
 
 - **[gripline](https://github.com/B-A-M-N/gripline)** — credential-containment
@@ -57,4 +57,4 @@ behavioral measurement as separable layers:
 
 Precision machinist (±0.00015" tolerances) → contract IT → self-taught systems engineering (B.A. Psychology, George Mason). After four years as primary caregiver for my son, I'm ready for full-time or contract engineering work—bringing machinist-grade discipline around deterministic boundaries, failure modes, and shipping reliable tooling under tight constraints.
 
-**Contact:** [benevolentjoker@gmail.com](mailto:benevolentjoker@gmail.com) · [Website](https://bamnlanding.lovable.app) · [X / Twitter](https://x.com/london_joh23108) · [Ollama](https://ollama.com/B-A-M-N)
+**Contact:** [bamn.labs.ai@gmail.com](mailto:bamn.labs.ai@gmail.com) · [Website](https://bamnlanding.lovable.app) · [X / Twitter](https://x.com/london_joh23108) · [Ollama](https://ollama.com/B-A-M-N)
